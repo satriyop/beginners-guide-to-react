@@ -5,10 +5,37 @@
   <script src="https://unpkg.com/@babel/standalone@7.8.3/babel.js"></script>
   <script type="text/babel">
     const rootElement = document.getElementById('root')
-    const children = 'Hello World'
-    const className = 'container'
-    const props = {children, className}
-    const element = <div {...props} />
-    ReactDOM.render(element, rootElement)
+
+    // const element = <div className="myInlineClass">This is Children</div>
+    // ReactDOM.render(element, rootElement)
+
+    // const element = <div className="myInlineClass" children="This is also Children" />
+    // ReactDOM.render(element, rootElement)
+
+    // const myFirstChildren = 'My First Children'
+    // const element = <div className="myInlineClassName">{myFirstChildren}</div>
+    // ReactDOM.render(element, rootElement)
+
+    // const myClassName = 'MyOtherClass'
+    // const mySecondChildren = "My Children"
+    // const element = <div className={myClassName}>{mySecondChildren}</div>
+    // ReactDOM.render(element, rootElement)
+
+    // const className = "SpreadClass"
+    // const children = "My Final Children"
+    // const element = <div className={className} children={children}></div>
+    // ReactDOM.render(element, rootElement)
+
+    // const children = 'My Children'
+    // const className = 'container'
+    // const props = {children : children, className: className}
+    // const element = <div {...props} />
+    // ReactDOM.render(element, rootElement)
+
+    // const children = 'My Children'
+    // const className = 'container'
+    // const props = {children, className}
+    // const element = <div {...props} />
+    // ReactDOM.render(element, rootElement)
   </script>
 </body>
