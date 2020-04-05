@@ -4,16 +4,28 @@
   <script src="https://unpkg.com/react-dom@16.12.0/umd/react-dom.development.js"></script>
   <script src="https://unpkg.com/@babel/standalone@7.8.3/babel.js"></script>
   <script type="text/babel">
-    const element = (
+
+    // const firstElement = React.createElement('span', null, 'First Element')
+    // const secondElement = React.createElement('span', null, ' Second Element')
+    // const element = React.createElement(React.Fragment, null, firstElement, secondElement)
+    // ReactDOM.render(element, document.getElementById('root'))
+
+    // const element = (
     // <React.Fragment>
-    //   <span>Hello</span> 
-    //   <span>World</span>
+    //   <span>First Element</span> 
+    //   <span> Second Element</span>
     // </React.Fragment>
- 
+    // )
+    // ReactDOM.render(element, document.getElementById('root'))
+
+    const element = (
       <>
-        <span>Hello</span> <span>World</span>
+        <span>First Element</span> 
+        <span>Second Element</span>
       </>
     )
     ReactDOM.render(element, document.getElementById('root'))
+
+
   </script>
 </body>
